@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Calculator demo</title>
+    <meta charset="utf-8">
+    <script src="calculator_2.js"></script>
+    <link rel="stylesheet", href="calculator_2.css">
+</head>
+<body>
+    <div id="interface">
+    <h1>Calculator</h1>
+    <div id="display">
+    </div>
+    
+    <div class="function">
+        <div id="firstRow">
+            <button id="plus" onclick="clicking(this)">+</button>
+            <button id="minus" type="button" onclick="clicking(this)">-</button>
+            <button id="multiply" type="button" onclick="clicking(this)">×</button>
+            <button id="divide" type="button" onclick="clicking(this)">÷</button>
+            
+            
+    
+        </div>
+        <div id="secondRow">
+            <button id="digitZero" type="button" onclick="clicking(this)">0</button>
+            <button id="digitOne" type="button" onclick="clicking(this)">1</button>
+            <button id="digitTwo" type="button" onclick="clicking(this)">2</button>
+            <button id="digitThree" type="button" onclick="clicking(this)">3</button>
+    
+        </div>
+    
+        <div id="thirdRow">
+            <button id="digitFour" type="button" onclick="clicking(this)">4</button>
+            <button id="digitFive" type="button" onclick="clicking(this)">5</button>
+            <button id="digitSix" type="button" onclick="clicking(this)">6</button>
+            <button id="digitSeven" type="button" onclick="clicking(this)">7</button>
+            <button id="Del" type="button" onclick="backSpace()">Del</button>
+    
+        </div>
+        <div id="forthRow">
+            <button id="digitEight" type="button" onclick="clicking(this)">8</button>
+            <button id="digitNine" type="button" onclick="clicking(this)">9</button>
+            <button id="enter" type="button" onclick="calculate()">Enter</button>
+            <button id="Esc" type="button" onclick="clearAll()">Esc</button>
+        </div>
+    </div>
+
+</div>
+</body>
+</html>
